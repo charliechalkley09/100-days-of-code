@@ -1,0 +1,56 @@
+body {
+  font-family: verdana, sans-serif; 
+  background-color: lightblue;    
+margin: 0; /* removes default spacing */
+}
+
+.card {
+ background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  margin: 50px auto;
+  width: 300px;
+}
+
+.card img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.card Button {
+  padding: 10px 20px;
+  border: none;
+  background: green;
+  color: white;
+  border: 5px;
+  cursor: pointer;
+}
+
+nav {
+  background-color:black;
+  padding: 10px;  
+}
+
+nav ul {
+  list-style: none;  /* removes bullets*/
+  display: flex;    /* puts items in a row */
+  justify-content: center; /* centers them*/
+  margin: 0;        
+  padding: 0;       
+}
+
+nav li {
+  margin: 0 15px;   /* space between items */
+}
+
+nav a {
+  color: gold;     
+  text-decoration: none; /* removes underline */
+  font-weight: bold; 
+}
+
+nav a:hover {
+  text-decoration: underline; /* underline when hover */
+}
