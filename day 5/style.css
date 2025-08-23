@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif; 
+  background-color: bright yellow;      
+  text-align: left;              
+  padding: 50px;                   /* space around the text */
+}
+
+h1 {
+  color: darkgreen;  
+                text-align: left;
+}
+
+p {
+  color: red;                  /* color for paragraph */
+  font-size: 20px;                 /* bigger text */
+}
+Button {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
