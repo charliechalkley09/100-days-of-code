@@ -1,0 +1,88 @@
+/* Basic page setup */
+body {
+  font-family: verdana, sans-serif; 
+  background-color: #e6f2ff;    
+margin: 0; /* removes default browser margin */
+  padding: 0;
+}
+
+/* Navigation bar */
+nav {
+  background-color: green;
+  color: white;
+  display: flex; /* line up logo + menu */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav h1 {
+  margin: o;
+}
+
+nav ul {
+  list-style-type: none; /* removes bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex; /* line up menu items horizontally */
+}
+
+nav ul li {
+  margin-left: 20px; /* space between menu items */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none; /* removes underline from links */
+  font-weight: bold;
+}
+
+/* Hero section */
+.hero {
+  background-color: #d9ecff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  margin-top: 0;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen; /* darker green on hover */
+}
+
+/* Profile section*/
+.profile {
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+  .card {
+ background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block; /* keeps card small instead of full width */
+}
+
+.card img {
+  border-radius: 50%; /* makes image circular */
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
