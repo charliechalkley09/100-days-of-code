@@ -1,0 +1,109 @@
+/* Basic page setup */
+body {
+  font-family: verdana, sans-serif; 
+  background-color: #e6f2ff;    
+margin: 0; /* removes default browser margin */
+  padding: 0; 
+}
+
+/* Navigation bar */
+nav {
+  background-color: green;
+  color: white;
+  display: flex; /* line up logo + menu */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /*shadow under nav */
+}
+
+nav h1 {
+  margin: o;
+}
+
+nav ul {
+  list-style-type: none; /* removes bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex; /* line up menu items horizontally */
+}
+
+nav ul li {
+  margin-left: 20px; /* space between menu items */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none; /* removes underline from links */
+  font-weight: bold;
+  transition: 0.3s; /* smooth hover */
+}
+
+nav ul li a:hover {
+ color: yellow;
+}
+
+/* Hero section */
+.hero {
+  background-color: #d9ecff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  margin-top: 0;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s; /* smooth hover */
+}
+
+button:hover {
+  background-color: darkgreen; /* darker green on hover */
+  transform: scale(1.05); /* button grows */
+}
+
+/* Profile section*/
+.profile {
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+  .card {
+ background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block; /* keeps card small instead of full width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* shadow */
+}
+
+.card img {
+  border-radius: 50%; /* makes image circular */
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Padding is the space INSIDE the box (like distance from the next thing)
+    Margin is the space OUTSIDE the box (like distance from the next thing)
+e.g:
+    Padding = space between the photo and the frame
+    Margin = space between the frame and the wall */
+
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    0 is no shadow left or right
+    4px is how far the shadow moves down
+    8px is how "blurry" the shadow is
+    rgba(0, 0, 0, 0.1) is colour (black, but only 10% see-through) */
